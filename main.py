@@ -2,7 +2,6 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from start import Ui_SecondWindow
 import os
 
-
 class Ui_MainWindow(object):
     def openWindow(self):
         self.window = QtWidgets.QMainWindow()
